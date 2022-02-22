@@ -1,8 +1,12 @@
 name: Manual trigger
 on: [push]
+env:
+  NODE_VERSION: "14.x"
+  PACKAGE_PATH: ./build
 jobs:
-  Explore-GitHub-Actions:
+  build:
+  name: Manual trigger
     runs-on: ubuntu-latest
     steps:
       - run: echo "Se esta haciendo una push"
-      - run: echo "El nombre del proyecyo es ghactions_techweek salu2"
+      - run: echo "El nombre del yaml es Manual trigger salu2"
