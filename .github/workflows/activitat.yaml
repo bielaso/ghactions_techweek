@@ -1,0 +1,8 @@
+name: Manual trigger
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Se esta haciendo una push"
+      - run: echo "El nombre del proyecyo es ghactions_techweek salu2"

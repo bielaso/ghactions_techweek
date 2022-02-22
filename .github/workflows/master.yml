@@ -1,4 +1,4 @@
-name: Master CI/CD
+npm installname: Master CI/CD
 on:
   push:
     branches:
